@@ -14,8 +14,6 @@ const Item = styled(Paper)(({ theme }) => ({
   }));
 
 function Game() {
-
-
 	// const downHandler = () =>{
 	// 	if()
 	// }
@@ -28,7 +26,7 @@ function Game() {
 	// 	  window.removeEventListener("keyup", upHandler);
 	// 	};
 	//   }, []);
-
+	//HELLO
 
 	// const handleKeyMovement = (event) => {
 		const modifier = 5;
@@ -76,6 +74,7 @@ function Game() {
 				<p>Your player has arrived at the first challenge. There is (an old crow) here. Help us to see the crow.
 
 Choose the line to add the image of the crow:
+
 {/* <select>
 <option><img src="https://ebird.org/species/carcro1" alt="crow"/>
 "&lt; img src='https://ebird.org/species/carcro1' alt ='crow' &gt;"
