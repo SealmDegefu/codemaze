@@ -46,7 +46,22 @@
 .container {
   display: flex;
   width: 100%;
-  height: 500px;
+  height: 900px;
+}
+
+.header-container {
+  display: flex;
+  width: 100%;
+  height: 200px;
+}
+.timer {
+  flex: 1;
+  text-align: center;
+}
+
+.trophy {
+  flex: 2;
+  background-color: bisque;
 }
 
 .instructions {

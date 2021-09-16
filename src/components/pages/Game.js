@@ -13,10 +13,19 @@ const Item = styled(Paper)(({ theme }) => ({
   }));
 
 function Game() {
+
+	// const modifier = 5;
+	// window.addEventListener(KeyboardEvent)
 	return (
 	<div>
-		<h1>I am a timer</h1>
-		<h1>I am a trophy</h1>
+	<div className="header-container">
+		<div className="timer">
+		I am a timer
+	    <br />
+		<button> Start timer</button>
+		</div>
+		<div className="trophy">I am a trophy</div>
+	</div>
 			
 		<div className="container">
     		<div className="instructions"> Content A</div>
@@ -43,6 +52,19 @@ function Game() {
         	</Grid>
 			<Grid item xs={1}>
           	<Item className="grid-size"></Item>
+        	</Grid>
+			{/* Row 3 */}
+			<Grid className="maze-background" item xs={1}>
+          	{/* <Item> </Item> */}
+        	</Grid>
+			<Grid item xs={1}>
+          	<Item className="grid-size"></Item>
+        	</Grid>
+			<Grid item xs={1}>
+          	{/* <Item className="grid-size"></Item> */}
+        	</Grid>
+			<Grid item xs={1}>
+          	{/* <Item className="grid-size"></Item> */}
         	</Grid>
       		</Grid>
     	</Box>
