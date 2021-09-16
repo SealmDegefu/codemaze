@@ -61,7 +61,6 @@
 
 .trophy {
   flex: 2;
-  background-color: bisque;
 }
 
 .instructions {
@@ -78,4 +77,10 @@
 
 .grid-size{
 height: 100px !important;
+}
+
+#token{
+  top: 100;
+  right: 0;
+  position: absolute;
 }
