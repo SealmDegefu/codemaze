@@ -29,14 +29,7 @@ function Game() {
 	// 	};
 	//   }, []);
 
-	// 	 const handleAnswerChange = (event) => {
-	// 		if(document.addEventListener('keydown', )){
-	// 			alert('the sky is your limit')
-	// 	}
-	// 		else if (event.key === 'up') {
-	// 			alert('The sky is your limit👀')
-	// 	}
-	// }
+
 	// const handleKeyMovement = (event) => {
 		const modifier = 5;
 		// const ref = 
@@ -53,7 +46,7 @@ function Game() {
 	
 	return (
 		
-	<div>
+<div className="top">
 	<div className="header-container">
 		<div className="timer">
 		I am a timer
@@ -62,19 +55,44 @@ function Game() {
 		</div>
 		<div className="trophy">I am a trophy</div>
 	</div>
-			
-		<div className="container">
-    		<div className="instructions">
+<div className="container">
+    	<div className="instructions">
 				<h2>Instructions</h2>
-				Text about the game!
+				<p>Your player needs help getting through the maze. Solve the challenges to collect items. Move through the maze using the arrow buttons on your keyboard. Can you help them get to the end?
+					HTML stands for Hyper Text Markup Language. Web pages use it to know both what words to say, like “Hello there”, but also how it should look. For instance, do you want it to be bigger or smaller or a different color. CSS or Cascading Style Sheets can allow designers to change pages so that many things or pages can be changed at once. This is just the beginning of a computer coding experience. Once you start looking you will see examples everywhere.
+					Using the basics of HTML and CSS and other coding help your player get through the maze.
+					</p>
+					<br />
+					<p>
+					Your player needs help getting through the maze. Solve the challenges to collect items. Move through the maze using the arrow buttons on your keyboard. Can you help them get to the end?
+</p> 
 				<br/ >
 				<select name="selectList" id="selectList">
    				<option value="challenge 1"> Challenge 1</option>
    				<option value="challenge 2">Challenge 2</option>
- 				<option value="challenge 3">Challenge 2</option>
+ 				<option value="challenge 3">Challenge 3</option>
 				</select>
-			</div>
-	
+			<div>
+				<p>Your player has arrived at the first challenge. There is (an old crow) here. Help us to see the crow.
+
+Choose the line to add the image of the crow:
+{/* <select>
+<option><img src="https://ebird.org/species/carcro1" alt="crow"/>
+"&lt; img src='https://ebird.org/species/carcro1' alt ='crow' &gt;"
+</option>
+
+<option><img src="https://ebird.org/species/carcro1" alt="crow" style={{width:'48px', height:'48px'}}/>
+"&lt; img src='https://ebird.org/species/carcro1' alt ='crow' style='width:48px;height:48px'&gt;"
+
+</option>
+</select> */}
+
+Help:
+An image tag "&lt; img &gt;" contains src which tells where to find the image, alt which is a description of the picture, and sometimes has style which might set the size of an item.
+</p>
+	</div>
+	</div>
+
     		<div className="maze">
 		<Box sx={{ flexGrow: 1 }}>
       		<Grid className="grid-size" container columns={6}>
@@ -193,10 +211,10 @@ function Game() {
       		</Grid>
     	</Box>
 		
-			</div>	
+		      </div>
 		</div>
-	</div>
+		</div>
 	)
 }
 
-export default Game
+export default Game;
