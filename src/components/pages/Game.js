@@ -1,10 +1,10 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { MdAccessibility } from 'react-icons/md';
 import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
-import { Icon } from '@material-ui/core';
+import DropdownButton from 'react-bootstrap/DropdownButton'
 
 const Item = styled(Paper)(({ theme }) => ({
 	...theme.typography.body2,
@@ -14,6 +14,7 @@ const Item = styled(Paper)(({ theme }) => ({
   }));
 
 function Game() {
+
 
 	// const downHandler = () =>{
 	// 	if()
@@ -66,7 +67,12 @@ function Game() {
     		<div className="instructions">
 				<h2>Instructions</h2>
 				Text about the game!
-			
+				<br/ >
+				<select name="selectList" id="selectList">
+   				<option value="challenge 1"> Challenge 1</option>
+   				<option value="challenge 2">Challenge 2</option>
+ 				<option value="challenge 3">Challenge 2</option>
+				</select>
 			</div>
 	
     		<div className="maze">
