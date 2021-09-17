@@ -132,7 +132,7 @@ function Mentor() {
                     Brandon Barnes, Software Engineer at JPMorgan 
                   </Typography>
                   <Typography variant="body2" color="textSecondary" component="p">
-                    My name is Javier Marin and I am a junior full stack developer. I am currently a senior at the University of Houston where i am majoring in Computer Information Systems. I am also a graduate in the Software engineering program at Flatiron school. I have had experience building fullstack application using different languages like Java, React, JS, PostgreSQL, HTML, CSS, and etc... I look forward to applying my experience throughout the projects I have been apart of on the job. When im not typing away at my keyboard you can find me hanging out with family, working out, or reading.
+                    My name is Brandon Barnes and I am a junior full stack developer. I am currently a senior at the University of Houston where i am majoring in Computer Information Systems. I am also a graduate in the Software engineering program at Flatiron school. I have had experience building fullstack application using different languages like Java, React, JS, PostgreSQL, HTML, CSS, and etc... I look forward to applying my experience throughout the projects I have been apart of on the job. When im not typing away at my keyboard you can find me hanging out with family, working out, or reading.
                   </Typography>
                 </CardContent>
               </CardActionArea>

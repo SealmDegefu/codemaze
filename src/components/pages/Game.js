@@ -13,6 +13,50 @@ const Item = styled(Paper)(({ theme }) => ({
   }));
 
 function Game() {
+
+	// const [move, setMove] = useState(true);
+
+	// const changeMove =() => {
+	// 	setMove({move: !move})
+	// }
+
+	// const icon = null;
+	// function init() {
+    //     icon = React.createRef;
+    //      changeMove();
+    // }
+	// function getKeyAndMove(e) {
+    //     var key_code = e.which || e.keyCode;
+    //     switch (key_code) {
+    //         case 37: //left arrow key
+    //             moveLeft();
+    //             break;
+    //         case 38: //Up arrow key
+    //             moveUp();
+    //             break;
+    //         case 39: //right arrow key
+    //             moveRight();
+    //             break;
+    //         case 40: //down arrow key
+    //             moveDown();
+    //             break;
+    //     }
+    // }
+
+	// function moveLeft() {
+	// 	const tokenId = document
+    //     objImage.style.left = parseInt(objImage.style.left) - 5 + "px";
+    // }
+    // function moveUp() {
+    //     objImage.style.top = parseInt(objImage.style.top) - 5 + "px";
+    // }
+    // function moveRight() {
+    //     objImage.style.left = parseInt(objImage.style.left) + 5 + "px";
+    // }
+    // function moveDown() {
+    //     objImage.style.top = parseInt(objImage.style.top) + 5 + "px";
+    // }
+    // window.onload = init;
 	// const downHandler = () =>{
 	// 	if()
 	// }
@@ -28,19 +72,19 @@ function Game() {
 	//HELLO
 
 	// const handleKeyMovement = (event) => {
-		const modifier = 5;
-		// const ref = 
-		window.addEventListener('keydown', (event) => {
-		const  { style } = document.getElementById("token")
-		switch (event.key) {
-			case 'ArrowUp': style.top = `${parseInt(style.top) - modifier}px`; break;
-			case 'ArrowDown': style.top = `${parseInt(style.top) + modifier}px`; break;
-			case 'ArrowUp': style.left = `${parseInt(style.left) - modifier}px`; break;
-			case 'ArrowUp': style.left = `${parseInt(style.left) + modifier}px`; break;
-		}
-		});
+		// const modifier = 5;
+		// // const ref = 
+		// window.addEventListener('keydown', (event) => {
+		// const  { style } = document.getElementById("token")
+		// switch (event.key) {
+		// 	case 'ArrowUp': style.top = `${parseInt(style.top) - modifier}px`; break;
+		// 	case 'ArrowDown': style.top = `${parseInt(style.top) + modifier}px`; break;
+		// 	case 'ArrowUp': style.left = `${parseInt(style.left) - modifier}px`; break;
+		// 	case 'ArrowUp': style.left = `${parseInt(style.left) + modifier}px`; break;
+		// }
+		// });
 // }
-	
+	// const token = move 
 	return (
 		
 <div className="top">
@@ -72,19 +116,20 @@ function Game() {
 			<div>
 				<p>Your player has arrived at the first challenge. There is (an old crow) here. Help us to see the crow.
 
+<br />
 Choose the line to add the image of the crow:
 
-{/* <select>
-<option><img src="https://ebird.org/species/carcro1" alt="crow"/>
+ <select>
+<option>
 "&lt; img src='https://ebird.org/species/carcro1' alt ='crow' &gt;"
 </option>
 
-<option><img src="https://ebird.org/species/carcro1" alt="crow" style={{width:'48px', height:'48px'}}/>
+<option>
 "&lt; img src='https://ebird.org/species/carcro1' alt ='crow' style='width:48px;height:48px'&gt;"
 
 </option>
-</select> */}
-
+</select> 
+<br />
 Help:
 An image tag "&lt; img &gt;" contains src which tells where to find the image, alt which is a description of the picture, and sometimes has style which might set the size of an item.
 </p>
@@ -101,7 +146,7 @@ An image tag "&lt; img &gt;" contains src which tells where to find the image, a
         	<Grid item xs={1}>
           	<Item className="grid-size" id="start">
 			  Start
-			  <MdAccessibility id="token" size={70}/></Item>
+			  <MdAccessibility size={70}/></Item>
         	</Grid>
 			{/* Row 2 */}
 			<Grid className="maze-background" item xs={3}>

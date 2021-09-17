@@ -65,6 +65,7 @@
 
 .instructions {
   flex: 1;
+  padding: 10px;
 }
 
 .maze {
@@ -79,7 +80,7 @@
 height: 100px !important;
 }
 
-#token{
+.token{
   top: 100;
   right: 0;
   position: absolute;
