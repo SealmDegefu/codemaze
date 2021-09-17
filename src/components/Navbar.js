@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import {Link } from 'react-router-dom';
-import { BsPlug } from 'react-icons/bs';
+import { GiMaze } from 'react-icons/gi';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdCancel } from 'react-icons/md';
 import { Button } from './Button';
@@ -32,8 +32,8 @@ window.addEventListener('resize', showButton);
 		<nav className="navbar">
 		<div className="navbar-container">
 		<Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-			PLUGGED
-			<BsPlug />
+			CODEMAZE 
+			<GiMaze />
 		</Link>	
 		<div className='menu-icon' onClick={handleClick}>
 			{ click ? <MdCancel />: <GiHamburgerMenu /> }

@@ -14,8 +14,10 @@ function ButtonHolders() {
 			<Button className='btns' buttonStyle='btn--outline'
 			buttonSize='btn--large'>Play A Game </Button>
 			</Link>
+			<Link to="/learning">
 			<Button className='btns' buttonStyle='btn--primary'
-			buttonSize='btn--large'>Watch Testimonies <GiPlayButton /> </Button>
+			buttonSize='btn--large'>Explore Learning Materials <GiPlayButton /> </Button>
+			</Link>
 			</center>
 		</div>
 	)
